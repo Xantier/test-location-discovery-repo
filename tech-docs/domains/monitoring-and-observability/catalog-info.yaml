@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: monitoring-and-observability
+  description: Monitoring and monitoring-and-observability
+  annotations:
+    backstage.io/techdocs-ref: .
+spec:
+  owner: xantier
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: monitoring-systems
+spec:
+  type: url
+  targets:
+    - ./systems/alerting/catalog-info.yaml
+    - ./systems/application-metrics/catalog-info.yaml
+    - ./systems/distributed-tracing/catalog-info.yaml
+    - ./systems/logging/catalog-info.yaml
