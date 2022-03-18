@@ -16,6 +16,4 @@ spec:
   type: url
   targets:
     - ./systems/alerting/catalog-info.yaml
-    - ./systems/application-metrics/catalog-info.yaml
     - ./systems/distributed-tracing/catalog-info.yaml
-    - ./systems/logging/catalog-info.yaml
