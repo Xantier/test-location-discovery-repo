@@ -11,10 +11,11 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: monitoring-systems
+  name: moneytoring-systems
 spec:
   type: url
   targets:
     - ./systems/alerting/catalog-info.yaml
     - ./systems/distributed-tracing/catalog-info.yaml
     - ./systems/logging/catalog-info.yaml
+    - ./systems/tracing/catalog-info.yaml    
