@@ -17,3 +17,4 @@ spec:
   targets:
     - ./systems/alerting/catalog-info.yaml
     - ./systems/distributed-tracing/catalog-info.yaml
+    - ./systems/logging/catalog-info.yaml
